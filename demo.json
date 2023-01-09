@@ -1,0 +1,146 @@
+{
+  "FirstName": "Elad",
+  "LastName": "Cohen",
+  "Phone": "0500071171",
+  "Email": "elad@cohen.com",
+  "Facebook": "https://facebook.com/elad-cohen",
+  "Address": "5th St.",
+  "City": "New City",
+  "Zipcode": "5151503",
+  "Country": "Israel",
+  "BusinessName": "Elad Cohen Ltd.",
+  "BusinessDiscription": "Bussines Discription",
+  "BusinessPhone": "0500071171",
+  "BusinessEmail": "elad@cohen.com",
+  "Website": "Bussines Website",
+  "Occupation": "R&D",
+  "OpeningHours": [
+    { "Day": "sunday", "From": "9:00", "To": "16:00" },
+    { "Day": "monday", "From": "9:00", "To": "16:00" },
+    { "Day": "tuesday", "From": "9:00", "To": "16:00" },
+    { "Day": "wednesday", "From": "9:00", "To": "16:00" },
+    { "Day": "thursday", "From": "9:00", "To": "16:00" },
+    { "Day": "friday", "From": "9:00", "To": "12:00" },
+    { "Day": "saturday", "From": "", "To": "" }
+  ],
+  "DomainName": "cohen.com",
+  "Logo": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+  "BackroundImage": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+  "DepartmentsImages": [
+    "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+    "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+    "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+    "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+  ],
+  "Sections": [
+    {
+      "id": "navBar",
+      "headline": "navBar Headline",
+      "body": "navBar Headline",
+      "btnText": "navBar button"
+    },
+    {
+      "id": "header",
+      "headline": "header Headline",
+      "body": "header body",
+      "btnText": "header button",
+      "img": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+    },
+    {
+      "id": "gallery",
+      "headline": "gallery Headline",
+      "body": "gallery body",
+      "btnText": "gallery button",
+      "img": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+      "GalleryImages": [
+        "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+        "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+        "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+        "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+      ]
+    },
+    {
+      "id": "faq",
+      "headline": "faq Headline",
+      "body": "faq body",
+      "btnText": "faq button",
+      "img": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+    },
+    {
+      "id": "departments",
+      "headline": "departments Headline",
+      "body": "departments body",
+      "btnText": "departments button",
+      "img": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+    },
+    {
+      "id": "utility",
+      "headline": "utility Headline",
+      "body": "utility body",
+      "btnText": "utility button",
+      "img": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+    },
+    {
+      "id": "contactUs",
+      "headline": "contactUs Headline",
+      "body": "contactUs body",
+      "btnText": "contactUs button",
+      "img": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+    },
+    {
+      "id": "contactInfo",
+      "headline": "contactInfo Headline",
+      "body": "contactInfo body",
+      "btnText": "contactInfo button",
+      "img": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+    },
+    {
+      "id": "overview",
+      "headline": "overview Headline",
+      "body": "overview body",
+      "btnText": "overview button",
+      "img": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+    },
+    {
+      "id": "roadmap",
+      "headline": "roadmap Headline",
+      "body": "roadmap body",
+      "btnText": "roadmap button",
+      "img": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+    },
+    {
+      "id": "whitepaper",
+      "headline": "whitepaper Headline",
+      "body": "whitepaper body",
+      "btnText": "whitepaper button",
+      "img": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+    },
+    {
+      "id": "cards",
+      "headline": "Cards Header",
+      "body": "Cards Body",
+      "btnText": "card button",
+      "img": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+      "Cards": [
+        {
+          "header1": "card Headline1",
+          "header2": "card Headline2",
+          "body": "card body",
+          "img": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        },
+        {
+          "header1": "card Headline1",
+          "header2": "card Headline2",
+          "body": "card body",
+          "img": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        },
+        {
+          "header1": "card Headline1",
+          "header2": "card Headline2",
+          "body": "card body",
+          "img": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+        }
+    ]
+    }
+  ]
+}

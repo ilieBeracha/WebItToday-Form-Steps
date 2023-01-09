@@ -1,0 +1,317 @@
+.StepForm {
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 200px;
+    align-items: center;
+    width: 45%;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: #fff;
+    /* background: rgba(255, 255, 255, 0.38); */
+    /* border-radius: 16px; */
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3); */
+    /* opacity: 0.8; */
+    box-shadow: 0 4px 8px 0 rgba(193, 193, 193, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.StepFormRtl {
+    direction: rtl;
+}
+
+.StepHeaderDiv {
+    font-family: 'Assistant', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.StepForm form {
+    display: flex;
+}
+
+.formStyle {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 90%;
+    justify-content: space-evenly;
+}
+
+
+.formStyle form {
+    display: flex;
+    flex-direction: column;
+}
+
+.ProgressBarDiv {
+    width: 80%;
+    position: absolute;
+    /* position: fixed; */
+    top: 30px;
+    height: 30px;
+
+    /* background-color: #fff; */
+}
+
+.formStyle input[type='text'],
+.formStyle input[type='number'],
+.formStyle input[type='email'],
+.formStyle input[type='tel'] {
+    width: 100%;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.formStyle form label {
+    /* margin: 0 auto; */
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.formStyle label {
+    /* font-family: 'Assistant', sans-serif; */
+    /* font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Seymour One', sans-serif; */
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    /* font-family: sans-serif; */
+}
+
+.PersonalDetailsBtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    background-color: #6946D9;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+.FormPart1 {
+    padding: 10px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 0 auto;
+}
+
+.OpeningHoursInputs {
+    margin: 0 auto;
+    width: 80%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.openingHourRow {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.openingHourRow span {
+    font-size: 15px;
+}
+
+#openingHoursP {
+    margin: 0;
+    padding: 5px;
+    /* border-bottom: 1px solid black; */
+}
+
+.OpeningHoursDayDiv {
+    display: flex;
+    /* justify-content: center; */
+    width: 60px;
+}
+
+.OpeningHoursDayDiv span {
+    font-size: 18px;
+
+}
+
+.changeLanDiv {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+.WebsiteDetailsStep3 {
+    /* overflow-y: scroll; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* min-height: 0%; */
+    /* min-height: 100%; */
+}
+
+.WebsiteImagesUploadDiv {
+    border-top: 2px solid #6946D9;
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+.WebsiteImagesUploadDiv {
+  display: flex;
+  flex-direction: column;
+  /* flex-direction: row; */
+  align-items: center;
+}
+.WebsiteImagesUploadDiv img{
+    width: 90%;
+}
+.cropper {
+  width: 90%;
+}
+
+.my-cropped-image {
+  width: 150px;
+  height: 200px;
+  border: 2px solid #ccc;
+}
+
+.LogoDisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WebsiteImagesUploadDiv h4 {
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.LogoDisplay {
+    width: 200px;
+    height: 200px;
+}
+
+
+.file-input__input {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.file-input__label {
+    width: 70px;
+    padding: 8px;
+
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 14px;
+    /* padding: 10px 12px; */
+    background-color: #6946D9;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+}
+
+.StepHeaderDivWebsite {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.WebsiteSection {
+    box-sizing: border-box;
+    padding: 30px;
+    border-top: 1px solid black;
+}
+
+.DomainNameDiv {
+    padding: 20px;
+}
+
+.DisplayImageCrop img{
+    width: 200px;
+    height: 150px;
+}
+
+@media only screen and (max-width: 768px) {
+    .StepForm {
+        width: 90%;
+        margin: 0;
+        overflow-y: scroll;
+    }
+
+    .FormPart1 {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .formStyle form>* {
+        font-size: 10px;
+    }
+
+    .formStyle label {
+        margin-bottom: 0;
+    }
+
+    .formStyle input {
+        height: 20px;
+    }
+
+    .OpeningHoursDayDiv span {
+        font-size: 15px;
+
+    }
+
+    .openingHourRow span {
+        font-size: 12px;
+    }
+
+
+    .BusinessDetailsStep2 {
+        min-height: 100%;
+        /* margin-top: 200px; */
+    }
+
+    .PersonalDetailsStep1 {
+        /* margin-top: 100px; */
+    }
+}

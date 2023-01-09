@@ -1,0 +1,21 @@
+.step{
+    color: black;
+    width: 22px;
+    height: 22px;
+    font-size: 15px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E5E5;
+}
+
+.step.Completed{
+    background-color: #6946D9;
+}
+
+.step.Completed >*{
+    color:white;
+}
+
+
