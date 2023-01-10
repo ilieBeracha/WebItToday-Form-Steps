@@ -8,12 +8,12 @@ const defaultSrc = "https://res.cloudinary.com/olanetsoft/image/upload/v16486793
 function Step3(props) {
 
 
-    useEffect(()=>{
+    useEffect(() => {
         window.scrollTo({
-            top:0,
-            behavior:"smooth"
+            top: 0,
+            behavior: "smooth"
         })
-    },[])
+    }, [])
 
     const [image, setImage] = useState(defaultSrc);
     const [cropData, setCropData] = useState("");
@@ -24,7 +24,7 @@ function Step3(props) {
     function getWebsiteDet(Website) {
         const WebsiteOrgenize = {
             "DomainName": Website.DomainName,
-            "Logo": image,
+            "Logo": cropData,
             "BackroundImage": Website.BackgroundImage,
             "DepartmentsImages": "fixing",
             "Sections": [
@@ -107,7 +107,6 @@ function Step3(props) {
                     "body": Website.WhitePaperBody,
                     "btnText": Website.WhitePaperBtnText,
                     "img": Website.WhitePaperImg
-
                 },
             ]
         }
@@ -155,7 +154,7 @@ function Step3(props) {
                             <input name="DomainName" type="text" {...register('DomainName')} />
                         </div>
                         <div className="WebsiteImagesUploadDiv">
-                            {/* <div> */}
+                            <div>
                                 <div className="WebsiteImagesUploadDivLabel">
 
                                     <h5 htmlFor="Logo">{i18next.t('Logo')}</h5>
@@ -188,56 +187,22 @@ function Step3(props) {
                                     <div >
                                         {cropData ? (
                                             <div className="CroppedImageDisplay">
-                                                < img style={{ maxHeight: "300px", maxWidth: '100%' }} src={cropData} alt="cropped" />
+                                                <img style={{ maxHeight: "300px", maxWidth: '100%' }} src={cropData} alt="cropped" />
                                             </div>
                                         ) : (
                                             <></>
                                         )}
                                     </div>
                                 }
-                            {/* </div> */}
+                            </div>
                         </div>
                         <div className="WebsiteImagesUploadDiv">
-                            {/* <div> */}
 
-                                <div className="WebsiteImagesUploadDivLabel">
+                            <div className="WebsiteImagesUploadDivLabel">
 
-                                    <h5 htmlFor="BackgroundImage">{i18next.t('Background Image')}</h5>
-                                    <input name="BackgroundImage" type="file" {...register('BackgroundImage')} />
-                                </div>
-                                {/* {cropped === false ?
-                                    <>
-                                        <Cropper
-                                            className="cropper"
-                                            zoomTo={0.5}
-                                            initialAspectRatio={1}
-                                            src={image}
-                                            viewMode={1}
-                                            minCropBoxHeight={10}
-                                            minCropBoxWidth={10}
-                                            background={false}
-                                            responsive={true}
-                                            autoCropArea={1}
-                                            checkOrientation={false}
-                                            onInitialized={(instance) => {
-                                                setCropper(instance);
-                                            }}
-                                            guides={true}
-                                        />
-                                        <button type="button" onClick={getCropData}>{i18next.t('Crop')}</button>
-                                    </>
-                                    :
-                                    <div >
-                                        {cropData ? (
-                                            <div className="CroppedImageDisplay">
-                                                < img style={{ maxHeight: "300px", maxWidth: '100%' }} src={cropData} alt="cropped" />
-                                            </div>
-                                        ) : (
-                                            <></>
-                                        )}
-                                    </div> */}
-                                {/* } */}
-                            {/* </div> */}
+                                <h5 htmlFor="BackgroundImage">{i18next.t('Background Image')}</h5>
+                                <input name="BackgroundImage" type="file" {...register('BackgroundImage')} />
+                            </div>
                         </div>
                         <h2>{i18next.t('Sections')}:</h2>
                         <div className="WebsiteDetailsStep3Sections">

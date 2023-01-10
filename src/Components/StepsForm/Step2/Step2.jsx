@@ -1,11 +1,9 @@
 import { useForm } from "react-hook-form";
 import i18next from 'i18next';
 import { useEffect } from "react";
-// import { useEffect, useState } from "react";
 
 function Step2(props) {
     const { register, handleSubmit } = useForm();
-    // const [lan, setLan] = useState(true);
 
     useEffect(()=>{
         window.scrollTo({

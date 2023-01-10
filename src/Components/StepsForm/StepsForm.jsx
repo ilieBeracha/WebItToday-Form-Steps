@@ -89,8 +89,8 @@ i18next.init({
                 "Whitepaper Text": "Whitepaper Text",
                 "Whitepaper Body": "Whitepaper Body",
                 "Whitepaper Button Text": "Whitepaper Button Text",
-                "Crop":"Crop",
-                "Sections":"Sections"
+                "Crop": "Crop",
+                "Sections": "Sections"
 
             }
         },
@@ -174,8 +174,8 @@ i18next.init({
                 "Whitepaper Text": "נייר לבן טקסט",
                 "Whitepaper Body": "נייר לבן גוף",
                 "Whitepaper Button Text": "נייר לבן כפתור טקסט",
-                "Crop":"גזור",
-                "Sections":"גוף האתר"
+                "Crop": "גזור",
+                "Sections": "גוף האתר"
             }
         }
     }
